@@ -1,0 +1,26 @@
+@mixin menu($bg-color, $text) {
+    background-color: $bg-color;
+    content: $text;
+}
+
+@mixin link($hover) {
+    color: $hover;
+}
+
+@mixin section-dish1920 {
+    width: calc((100% - 2 * 48px) / 3);
+    max-width: 360px;
+    text-align: left;
+    position: relative;
+}
+
+@mixin section-dish1024 {
+    width: calc((100% - 2 * 69px) / 3);
+    max-width: 252px;
+}
+
+@mixin section-dish768 {
+    display: flex;
+    max-width: 720px;
+    width: 100%;
+}

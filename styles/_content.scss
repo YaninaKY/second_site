@@ -1,0 +1,53 @@
+.content {
+    text-align: left;
+    &__title {
+        font-weight: $normal-weight;
+        font-size: $text-size;
+    }
+    &__desc {
+        font-weight: $light-weight;
+        font-size: $small-size;
+        line-height: 23px;
+        color: $accent-color;
+        margin: 15px 0;
+    }
+    &__price {
+        font-weight: $title-weight;
+        font-size: $small-size;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .content {
+        &__title {
+            font-size: $title-size;
+            margin: 15px 0 15px;
+        }
+        &__desc {
+            font-size: 0.75rem;
+            margin: 0 0 17px;
+        }
+        &__price {
+            font-size: 0.75rem;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .content {
+        width: 50%;
+        margin-left: 24px;
+        &__title {
+            font-size: $title-size;
+            margin: 13px 0 20px;
+        }
+        &__desc {
+            font-size: $button-size;
+            margin: 0 0 20px;
+        }
+        &__price {
+            font-size: $button-size;
+            margin: 0 0 16px;
+        }
+    }
+}

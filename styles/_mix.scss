@@ -1,0 +1,17 @@
+.mix {
+    font-size: $text-size;
+    font-weight: $light-weight;
+    color: $primary-color;
+}
+
+@media screen and (max-width:1024px) {
+    .mix {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .mix {
+        font-size: $button-size;
+    }
+}

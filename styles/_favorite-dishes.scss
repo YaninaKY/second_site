@@ -1,0 +1,16 @@
+.favorite-dishes__text {
+    color: $accent-color;
+    margin: 30px 0 0;
+}
+
+@media screen and (max-width:1024px) {
+    .favorite-dishes__text {
+        margin: 30px 0 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .favorite-dishes__text {
+        margin: 20px 0 58px;
+    }
+}

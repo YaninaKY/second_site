@@ -1,0 +1,26 @@
+.inform {
+    background: #F3F7EA;
+    padding: 100px 0px;
+    &__text {
+        max-width: 941px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .inform {
+        padding: 80px 0px;
+        &__text {
+            max-width: 602px;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .inform {
+        padding: 70px 0px;
+        &__text {
+            max-width: 541px;
+        }
+    }
+}

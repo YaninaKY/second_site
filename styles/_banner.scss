@@ -1,0 +1,39 @@
+.banner {
+    text-align: center;
+    padding: 370px 0 185px;
+    color: $secondary-color;
+    &__title {
+        font-size: 4.25rem;
+        width: 914px;
+        margin: 0 auto;
+    }
+    &__text {
+        margin: 35px 0 60px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .banner {
+        padding: 183px 0 153px;
+        &__title {
+            font-size: 3rem;
+            width: 697px;
+        }
+        &__text {
+            font-size: $small-size;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .banner {
+        padding: 171px 0 99px;
+        &__text {
+            margin: 35px auto 66px;
+        }
+        &__title {
+            font-size: 2.5rem;
+            width: 329px;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.nav {
+    display: flex;
+    align-items: center;
+    margin: 18px 0;
+    &__link {
+        font-size: 1.1rem;
+        color: $secondary-color;
+        transition: color 1s;
+    }
+    &__link:not(:last-child) {
+        margin-right: 25px;
+    }
+    &__link:hover {
+        @include link(blue);
+    }
+    &__link:not(:last-child)::after {
+        content: "";
+        display: inline-block;
+        height: 16px;
+        width: 1.5px;
+        background-color: $secondary-color;
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .nav {
+        &__link {
+            font-size: $small-size;
+        }
+        &__link:not(:last-child)::after {
+            height: 13px;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .nav {
+        justify-content: center;
+    }
+}

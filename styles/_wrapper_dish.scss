@@ -1,0 +1,18 @@
+.wrapper-dish {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    font-size: 0;
+}
+
+@media screen and (max-width:1024px) {
+    .wrapper-dish {
+        margin-bottom: 45px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .wrapper-dish {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,21 @@
+.list {
+    font-size: 1.75rem;
+    margin: 60px 0;
+    &__data a {
+        color: $secondary-color;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .list {
+        font-size: $title-size;
+        margin: 50px auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .list {
+        font-size: 1.1rem;
+        margin: 40px auto;
+    }
+}

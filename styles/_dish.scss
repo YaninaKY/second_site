@@ -1,0 +1,18 @@
+.dish__item {
+    width: 100%;
+    max-width: 360px;
+}
+
+@media screen and (max-width:1024px) {
+    .dish__item {
+        width: 100%;
+        max-width: 252px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .dish__item {
+        width: 100%;
+        max-width: 320px;
+    }
+}

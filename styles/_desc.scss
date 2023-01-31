@@ -1,0 +1,16 @@
+.desc {
+    font-weight: $light-weight;
+    font-size: $title-size;
+}
+
+@media screen and (max-width:1024px) {
+    .desc {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .desc {
+        font-size: $button-size;
+    }
+}

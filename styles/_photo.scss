@@ -1,0 +1,17 @@
+.photo__cook {
+    width: 100%;
+    max-width: 398px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:1024px) {
+    .photo__cook {
+        max-width: 282px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .photo__cook {
+        max-width: 251px;
+    }
+}
